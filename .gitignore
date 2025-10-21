@@ -1,0 +1,36 @@
+# Python
+####################
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.pytest_cache
+
+# Environment
+####################
+# Lingkungan virtual (bisa berbeda-beda namanya)
+venv/
+.venv/
+env/
+
+# IDE
+####################
+# Contoh untuk VS Code
+.vscode/
+
+# Database Files
+####################
+# Abaikan file database SQLite (.db atau .sqlite)
+# Ganti 'instance' jika folder penyimpanan database Anda berbeda.
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Log and Output
+####################
+*.log
+/dist
+/build
